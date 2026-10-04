@@ -1,2 +1,7 @@
-streamli
+streamlit
+pypdf
+sentence-transformers
+chromadb
 ollama
+openai-whisper
+pillow
