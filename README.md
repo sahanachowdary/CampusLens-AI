@@ -319,6 +319,9 @@ This makes the project suitable for college information systems and local AI exp
 - Voice-based questions are not yet implemented
 - Performance depends on available RAM and CPU
 - Whisper transcription time depends on the length of the audio file
+- Streamlit Cloud deployment is limited because the project depends on local Ollama models and resource-intensive components such as Whisper and Torch.
+These local services and high memory requirements are not reliably supported in the Streamlit Community Cloud environment.
+
 
 ## 🔮 Future Enhancements
 
@@ -332,6 +335,9 @@ This makes the project suitable for college information systems and local AI exp
 - User authentication
 - Admin dashboard
 - Improved mobile-friendly interface
+- Deployment:- Replace the local Ollama model with a hosted LLM API such as Gemini or OpenAI for easier cloud deployment.
+               Use a persistent cloud database/vector store such as Supabase or hosted ChromaDB for reliable storage.
+               Deploy the optimized application on Streamlit Cloud or another cloud platform for public access.
 
 ## 🎯 Project Goal
 
